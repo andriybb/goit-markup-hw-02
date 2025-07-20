@@ -1,0 +1,53 @@
+title,
+h1 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
+}
+
+h2 {
+  font-family: Roboto;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 2%;
+}
+
+h3 {
+  font-family: Roboto;
+  font-weight: medium;
+  font-size: 20px;
+  letter-spacing: 2%;
+}
+
+body {
+  font-family: Roboto;
+  font-weight: regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+
+.button-order {
+  font-family: Roboto;
+  font-weight: medium;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
+.small {
+  font-family: Roboto;
+  font-weight: regular;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 4%;
+}
+link {
+  font-family: Roboto;
+  font-weight: regular;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 4%;
+  text-decoration: underline;
+}
