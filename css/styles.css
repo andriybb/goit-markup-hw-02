@@ -43,11 +43,14 @@ body {
 :focus {
   color: #404bbf;
 }
+
+.contact {
+  font-style: normal;
+}
 .contact-info {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-
   color: #434455;
 }
 .contact-info:hover,
@@ -81,7 +84,7 @@ footer {
   font-weight: bold;
   font-size: 56px;
   line-height: 1.07;
-
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 
