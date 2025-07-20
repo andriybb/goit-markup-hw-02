@@ -3,9 +3,47 @@ body {
   font-weight: regular;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
   color: #434455;
   background-color: #ffffff;
+  letter-spacing: 0.02em;
+}
+.button-order {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  text-align: center;
+  cursor: pointer;
+}
+.button-order:hover,
+:focus {
+  background-color: #404bbf;
+}
+.navigation {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0/02em;
+  text-decoration: underline;
+  color: #2e2f42;
+}
+.navigation:hover,
+:focus {
+  color: #404bbf;
+}
+.contact-info {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #434455;
+}
+.contact-info:hover,
+:focus {
+  color: #404bbf;
 }
 .main-banner,
 footer {
@@ -14,71 +52,61 @@ footer {
 .our-team {
   background-color: #f4f4fd;
 }
-h1 {
+.our-work {
+  font-size: 16px;
+  line-height: 1.5;
+
+  color: #434455;
+}
+
+.main-head {
   font-weight: bold;
   font-size: 56px;
-  line-height: 1.07143;
-  letter-spacing: 2%;
+  line-height: 1.07;
+
   color: #ffffff;
 }
 
-h2 {
-  font-weight: bold;
+.work-banner {
+  font-weight: 500;
   font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 2%;
-  color: #2e2f42;
+  line-height: 1.2;
 }
 
-h3 {
-  font-weight: medium;
+.teammates {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-transform: capitalize;
+}
+.team-members {
+  background-color: #ffffff;
+}
+.team-member {
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  letter-spacing: 2%;
-  color: #2e2f42;
+}
+.portfolio {
+  text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-transform: capitalize;
 }
 h1,
 h2 {
   text-align: center;
 }
 
-.button-order {
-  font-weight: medium;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 2%;
-  background-color: #4d5ae5;
-  color: #ffffff;
-  text-align: center;
-}
-.button-order:hover {
-  background-color: #404bbf;
-  cursor: pointer;
-}
-.link {
-  font-weight: regular;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 4%;
-  text-decoration: underline;
-  color: #434455;
-}
-.link:hover,
-:active {
-  color: #404bbf;
-}
-
-.logo,
-.logo-footer {
-  text-transform: uppercase;
-}
 ul {
   list-style: none;
 }
-.footer-text,
-.logo-footer {
+.footer-text {
   color: #f4f4fd;
 }
+
 span {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
