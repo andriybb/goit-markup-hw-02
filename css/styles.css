@@ -128,6 +128,9 @@ h2 {
 ul {
   list-style: none;
 }
+a {
+  text-decoration: none;
+}
 .footer-text {
   color: #f4f4fd;
 }
